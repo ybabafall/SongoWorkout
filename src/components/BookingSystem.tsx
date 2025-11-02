@@ -67,7 +67,7 @@ const BookingSystem = () => {
 
     setIsBooked(true);
     toast({
-      title: "Bienvenue dans la meute !",
+      title: "Bienvenue dans la troupe !",
       description: "Ta transformation commence maintenant. On te recontacte sous 24h.",
     });
   }, [selectedProgram, selectedDate, selectedTime, formData]);
@@ -88,7 +88,7 @@ const BookingSystem = () => {
                 <Check size={24} className="sm:w-7 sm:h-7 text-white" />
               </div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-display font-bold mb-3 sm:mb-4 text-white tracking-tight">
-                Bienvenue dans la meute
+                Bienvenue dans la troupe
               </h2>
               <p className="text-sm sm:text-base text-white/90 mb-6 sm:mb-8 leading-relaxed font-body">
                 On te recontacte sous <span className="text-orange-400 font-semibold">24h</span> pour démarrer ta transformation.
@@ -150,7 +150,7 @@ const BookingSystem = () => {
       <div className="container mx-auto relative z-10 px-4">
         <div className="text-center mb-8 sm:mb-10 md:mb-12">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-display text-white mb-4 sm:mb-6 tracking-tight bg-gradient-to-r from-white via-orange-100 to-white bg-clip-text text-transparent">
-            Rejoins la meute
+            Rejoins la troupe
           </h2>
 
           <div className="flex items-center justify-center gap-3 sm:gap-4 mb-4 sm:mb-6">
@@ -354,7 +354,7 @@ const BookingSystem = () => {
                   className="relative group w-full sm:w-auto min-h-[56px] px-6 sm:px-8 md:px-10 lg:px-12 py-4 text-sm sm:text-base font-bold tracking-wide transition-all duration-300 overflow-hidden bg-gradient-to-r from-orange-600 to-red-600 text-white hover:from-orange-500 hover:to-red-500 active:scale-95 shadow-[0_0_40px_rgba(249,115,22,0.4),0_0_60px_rgba(220,38,38,0.3)] hover:shadow-[0_0_60px_rgba(249,115,22,0.6),0_0_80px_rgba(220,38,38,0.4)] rounded-full sm:hover:scale-105 uppercase focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2 focus-visible:ring-offset-neutral-900"
                 >
                   <span className="relative z-10">
-                    Rejoindre la meute
+                    Rejoindre la troupe
                   </span>
                   <div className="absolute inset-0 bg-gradient-to-r from-yellow-500 to-orange-400 opacity-0 group-hover:opacity-30 transition-opacity duration-300"></div>
                 </button>

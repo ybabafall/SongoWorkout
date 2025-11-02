@@ -111,7 +111,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
         >
           Coaching au poids du corps pour transformer ta vie.<br className="hidden sm:block" />
-          <span className="sm:inline"> </span>Du lionceau au lion noir. L'illumination par l'action.
+          <span className="sm:inline"> </span>Du lionceau au lion dominant. L'illumination par l'action.
         </motion.p>
 
         {/* CTAs - Touch targets optimisés (min 48px height) */}
@@ -127,7 +127,7 @@ const Hero = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <span className="relative z-10">Rejoindre la meute</span>
+            <span className="relative z-10">Rejoindre la troupe</span>
             <div className="absolute inset-0 bg-gradient-to-r from-yellow-500 to-orange-400 opacity-0 group-hover:opacity-30 transition-opacity duration-300"></div>
           </motion.button>
           <motion.button

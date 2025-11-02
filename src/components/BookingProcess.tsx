@@ -22,7 +22,7 @@ const BookingProcess = () => {
       number: "03",
       icon: CreditCard,
       title: "Choisissez votre\nprogramme",
-      description: "Sélectionnez le plan qui correspond à vos ambitions. Rejoignez la meute dès maintenant.",
+      description: "Sélectionnez le plan qui correspond à vos ambitions. Rejoignez la troupe dès maintenant.",
     },
   ];
 
@@ -59,7 +59,7 @@ const BookingProcess = () => {
               className="text-display-lg font-display font-bold text-white mb-6 tracking-tight bg-gradient-to-r from-white via-orange-100 to-white bg-clip-text text-transparent"
               style={{ textShadow: '0 4px 30px rgba(255, 255, 255, 0.3), 0 2px 40px rgba(249, 115, 22, 0.2)', backgroundSize: '200% auto' }}
             >
-              Deviens lion noir
+              Deviens lion dominant
             </motion.h2>
 
             <motion.div
@@ -81,7 +81,7 @@ const BookingProcess = () => {
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6, delay: 0.3 }}
             >
-              En quelques clics, rejoins la meute Songo Workout.<br />
+              En quelques clics, rejoins la troupe Songo Workout.<br />
               Commence ta transformation dès aujourd'hui.
             </motion.p>
           </div>

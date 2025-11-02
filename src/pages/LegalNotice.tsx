@@ -108,7 +108,7 @@ const LegalNoticePage = () => {
                     </p>
                     <ul className="list-disc list-inside space-y-2 ml-4">
                       <li>Évaluation physique et définition d'objectifs personnalisés</li>
-                      <li>Programmes d'entraînement progressifs (du lionceau au lion noir)</li>
+                      <li>Programmes d'entraînement progressifs (du lionceau au lion dominant)</li>
                       <li>Coaching de groupe et sessions collectives</li>
                       <li>Coaching individuel personnalisé (VIP)</li>
                       <li>Suivi et accompagnement via communauté WhatsApp</li>

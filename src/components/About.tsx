@@ -58,7 +58,7 @@ const About = () => {
 
             <div className="max-w-4xl mx-auto space-y-8">
               <p className="text-body-base text-neutral-900/80 leading-relaxed font-body">
-                Songo Workout est né d'une vision : créer une communauté de guerriers qui transforment leur corps et leur mental par l'entraînement au poids du corps. Du lionceau au lion noir, chaque membre progresse à son rythme dans un esprit de meute unique.
+                Songo Workout est né d'une vision : créer une communauté de guerriers qui transforment leur corps et leur mental par l'entraînement au poids du corps. Du lionceau au lion dominant, chaque membre progresse à son rythme dans un esprit de troupe unique.
               </p>
 
               <p className="text-body-base text-neutral-900/80 leading-relaxed font-body">
@@ -162,14 +162,14 @@ const About = () => {
               </h3>
               <div className="divider-luxe max-w-xs mx-auto mb-6"></div>
               <p className="text-body-base text-neutral-900/85 mb-8 leading-relaxed max-w-2xl mx-auto font-body">
-                Rejoins la meute Songo Workout et commence ton parcours du lionceau au lion noir.
+                Rejoins la troupe Songo Workout et commence ton parcours du lionceau au lion dominant.
               </p>
               <button
                 onClick={() => navigate('/checkout')}
                 className="relative group px-[clamp(2rem,5vw,2.75rem)] py-[clamp(0.4rem,1.2vw,0.6rem)] text-ui-base font-medium transition-all duration-500 overflow-hidden bg-gradient-to-r from-orange-600 to-red-600 text-white hover:from-orange-500 hover:to-red-500 shadow-[0_4px_12px_rgba(249,115,22,0.3)] hover:shadow-[0_6px_16px_rgba(249,115,22,0.4)] rounded-full hover:scale-105"
               >
                 <span className="relative z-10">
-                  Rejoindre la meute
+                  Rejoindre la troupe
                 </span>
               </button>
             </div>

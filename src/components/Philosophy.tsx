@@ -20,9 +20,9 @@ const Philosophy = () => {
     },
     {
       id: 3,
-      name: "Lion Noir",
+      name: "Lion Dominant",
       stage: "La maîtrise",
-      description: "Tu incarnes la puissance. Tu inspires la meute. Ta transformation est totale.",
+      description: "Tu incarnes la puissance. Tu inspires la troupe. Ta transformation est totale.",
       color: "from-neutral-900/90 to-black",
       glowColor: "shadow-[0_0_50px_rgba(255,255,255,0.3)]"
     }
@@ -62,7 +62,7 @@ const Philosophy = () => {
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
-              Du lionceau au lion noir
+              Du lionceau au lion dominant
             </motion.h2>
 
             <motion.div
@@ -93,7 +93,7 @@ const Philosophy = () => {
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6, delay: 0.4 }}
             >
-              Tu progresses à travers des niveaux. Tu deviens lion. Puis lion noir.<br />
+              Tu progresses à travers des niveaux. Tu deviens lion. Puis lion dominant.<br />
               Ce n'est pas juste du sport. C'est une transformation totale.
             </motion.p>
           </div>
@@ -182,7 +182,7 @@ const Philosophy = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.3 }}
               >
-                La meute avance ensemble. Chaque victoire est partagée.
+                La troupe avance ensemble. Chaque victoire est partagée.
               </motion.p>
               <motion.p
                 className="text-ui-base text-white/90 font-mono tracking-wider uppercase"

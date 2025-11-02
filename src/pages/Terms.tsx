@@ -90,7 +90,7 @@ const TermsPage = () => {
                     <p>Songo Workout propose des programmes de coaching fitness personnalisés comprenant :</p>
                     <ul className="list-disc list-inside space-y-2 ml-4">
                       <li>Évaluation physique personnalisée et définition d'objectifs</li>
-                      <li>Programmes d'entraînement progressifs au poids du corps (du lionceau au lion noir)</li>
+                      <li>Programmes d'entraînement progressifs au poids du corps (du lionceau au lion dominant)</li>
                       <li>Sessions de coaching individuel ou en groupe</li>
                       <li>Suivi et accompagnement via communauté WhatsApp</li>
                       <li>Ajustements hebdomadaires du programme selon la progression</li>

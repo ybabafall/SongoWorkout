@@ -93,7 +93,7 @@ const Checkout = () => {
     // Simulation du paiement
     setTimeout(() => {
       toast({
-        title: "Bienvenue dans la meute ! 🎉",
+        title: "Bienvenue dans la troupe ! 🎉",
         description: `Tu as rejoint le ${selectedProgramData?.name}. On te recontacte sous 24h pour commencer.`,
       });
       setIsProcessing(false);
@@ -130,7 +130,7 @@ const Checkout = () => {
               <p className="text-ui-base text-white/90 font-mono tracking-widest uppercase">Checkout</p>
             </div>
             <h1 className="text-display-xl font-display font-bold text-white mb-6 tracking-tight bg-gradient-to-r from-white via-orange-100 to-white bg-clip-text text-transparent" style={{ textShadow: '0 4px 30px rgba(255, 255, 255, 0.3), 0 2px 40px rgba(249, 115, 22, 0.2)', backgroundSize: '200% auto' }}>
-              Rejoins la meute
+              Rejoins la troupe
             </h1>
             <div className="flex items-center justify-center gap-4 mb-6">
               <div className="h-px w-20 bg-gradient-to-r from-transparent to-white/50"></div>

@@ -47,7 +47,7 @@ const CTA = () => {
               <div className="relative z-10">
                 {/* Title */}
                 <h3 className="text-display-xl font-display font-bold text-white mb-6 tracking-tight" style={{ textShadow: '0 4px 30px rgba(255, 255, 255, 0.3), 0 2px 40px rgba(249, 115, 22, 0.2)' }}>
-                  Prêt à devenir lion noir ?
+                  Prêt à devenir lion dominant ?
                 </h3>
 
                 {/* Divider */}
@@ -62,7 +62,7 @@ const CTA = () => {
                   Je prends le contrôle. Je forge mon mental. Je sculpte mon corps.
                 </p>
                 <p className="text-body-base text-neutral-300 mb-12 leading-relaxed max-w-2xl mx-auto font-body">
-                  La transformation commence maintenant. Rejoins la meute.<br />
+                  La transformation commence maintenant. Rejoins la troupe.<br />
                   Deviens la meilleure version de toi-même.
                 </p>
 
@@ -71,7 +71,7 @@ const CTA = () => {
                   onClick={() => navigate('/checkout')}
                   className="group relative min-h-[56px] px-8 md:px-12 py-4 md:py-5 text-base md:text-lg font-bold tracking-wide transition-all duration-300 overflow-hidden bg-gradient-to-r from-orange-600 to-red-600 text-white hover:from-orange-500 hover:to-red-500 active:scale-95 shadow-[0_0_50px_rgba(249,115,22,0.4),0_0_80px_rgba(220,38,38,0.2)] hover:shadow-[0_0_70px_rgba(249,115,22,0.6),0_0_100px_rgba(220,38,38,0.3)] rounded-sm hover:scale-110 uppercase w-full md:w-auto"
                 >
-                  <span className="relative z-10">Rejoindre la meute maintenant</span>
+                  <span className="relative z-10">Rejoindre la troupe maintenant</span>
                   <div className="absolute inset-0 bg-gradient-to-r from-yellow-500 to-orange-400 opacity-0 group-hover:opacity-30 transition-opacity duration-300"></div>
                 </button>
 

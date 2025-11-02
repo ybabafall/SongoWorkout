@@ -51,7 +51,7 @@ const Contact = () => {
           <div className="divider-luxe max-w-xs sm:max-w-md mx-auto mb-4 sm:mb-6"></div>
           <p className="text-sm sm:text-base md:text-lg text-neutral-900/70 max-w-lg sm:max-w-xl md:max-w-2xl mx-auto leading-relaxed font-body animate-spring px-4" style={{ animationDelay: '0.3s' }}>
             Contacte-nous pour commencer ta transformation.
-            Notre équipe est là pour t'accompagner dans ton parcours vers le lion noir.
+            Notre équipe est là pour t'accompagner dans ton parcours vers le lion dominant.
           </p>
         </div>
 
@@ -107,7 +107,7 @@ const Contact = () => {
                   })}
                 </div>
                 <p className="text-xs sm:text-sm text-neutral-900/70 mt-3">
-                  Suis nos entraînements et les transformations de la meute
+                  Suis nos entraînements et les transformations de la troupe
                 </p>
               </div>
             </div>
@@ -182,7 +182,7 @@ const Contact = () => {
 
           <div className="mt-6 sm:mt-8 pt-4 sm:pt-6 border-t border-border/50 text-center">
             <p className="text-xs text-neutral-900/70 px-4">
-              Du lionceau au lion noir • Entraînement au poids du corps • Transformation physique et mentale
+              Du lionceau au lion dominant • Entraînement au poids du corps • Transformation physique et mentale
             </p>
           </div>
         </div>

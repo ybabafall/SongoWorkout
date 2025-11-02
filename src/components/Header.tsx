@@ -162,7 +162,7 @@ const Header = () => {
                   onClick={() => navigate('/checkout')}
                   className="w-full bg-gradient-to-r from-orange-600 to-red-600 text-white py-3 sm:py-4 px-4 sm:px-6 text-sm sm:text-base font-bold tracking-wide transition-all duration-500 rounded-sm font-body shadow-[0_8px_32px_rgba(249,115,22,0.2)] hover:shadow-[0_12px_48px_rgba(249,115,22,0.4)] active:scale-[0.98] sm:hover:scale-[1.02] relative overflow-hidden group uppercase"
                 >
-                  <span className="relative z-10">Rejoindre la meute</span>
+                  <span className="relative z-10">Rejoindre la troupe</span>
                   <div className="absolute inset-0 bg-gradient-to-r from-yellow-500 to-orange-400 opacity-0 group-hover:opacity-30 transition-opacity duration-300"></div>
                 </button>
               </div>

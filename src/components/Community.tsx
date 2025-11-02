@@ -7,7 +7,7 @@ const Community = () => {
     {
       id: 1,
       icon: Users,
-      title: "La meute",
+      title: "La troupe",
       description: "Tu n'es pas seul. Chaque membre avance avec toi. On se pousse, on se motive, on s'inspire.",
       color: "text-white"
     },
@@ -29,7 +29,7 @@ const Community = () => {
       id: 4,
       icon: TrendingUp,
       title: "Progression collective",
-      description: "Chaque transformation inspire la meute. Tes victoires deviennent notre force.",
+      description: "Chaque transformation inspire la troupe. Tes victoires deviennent notre force.",
       color: "text-orange-400"
     }
   ];
@@ -68,7 +68,7 @@ const Community = () => {
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
-              L'esprit meute
+              L'esprit troupe
             </motion.h2>
 
             <motion.div
@@ -191,7 +191,7 @@ const Community = () => {
               <div className="relative z-10 p-10 md:p-12 text-center">
                 {/* Text */}
                 <h3 className="text-heading-xl font-display font-bold text-white mb-4 tracking-tight">
-                  Prêt à rejoindre la meute ?
+                  Prêt à rejoindre la troupe ?
                 </h3>
                 <p className="text-body-base text-neutral-300 font-body mb-8 max-w-2xl mx-auto">
                   Chaque mouvement te rapproche de ta puissance intérieure.<br />
@@ -210,7 +210,7 @@ const Community = () => {
                   </div>
                   <div className="text-center">
                     <p className="text-display-lg font-display font-bold text-white mb-1 drop-shadow-[0_0_20px_rgba(255,255,255,0.3)]">1</p>
-                    <p className="text-ui-sm text-neutral-400 font-mono uppercase tracking-wider">Meute</p>
+                    <p className="text-ui-sm text-neutral-400 font-mono uppercase tracking-wider">Troupe</p>
                   </div>
                 </div>
 
@@ -227,7 +227,7 @@ const Community = () => {
                   onClick={() => window.location.href = '/checkout'}
                   className="min-h-[56px] px-10 py-4 text-base font-bold tracking-wide transition-all duration-300 overflow-hidden bg-gradient-to-r from-orange-600 to-red-600 text-white hover:from-orange-500 hover:to-red-500 active:scale-95 shadow-[0_0_40px_rgba(249,115,22,0.4),0_0_60px_rgba(220,38,38,0.3)] hover:shadow-[0_0_60px_rgba(249,115,22,0.6),0_0_80px_rgba(220,38,38,0.4)] rounded-lg hover:scale-105 uppercase"
                 >
-                  Rejoindre la meute
+                  Rejoindre la troupe
                 </button>
               </div>
             </div>

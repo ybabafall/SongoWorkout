@@ -214,7 +214,7 @@ const Programs = () => {
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6, delay: 0.5 }}
             >
-              Tous les plans incluent un accès à l'esprit meute.
+              Tous les plans incluent un accès à l'esprit troupe.
             </motion.p>
             <motion.p
               className="text-ui-base text-neutral-400 font-mono tracking-wider"

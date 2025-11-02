@@ -26,7 +26,7 @@ const Innovation = () => {
       id: 1,
       icon: GraduationCap,
       title: "Méthode progressive",
-      description: "Chaque guerrier avance à son rythme, du lionceau au lion noir, avec un programme adapté à son niveau.",
+      description: "Chaque guerrier avance à son rythme, du lionceau au lion dominant, avec un programme adapté à son niveau.",
     },
     {
       id: 2,

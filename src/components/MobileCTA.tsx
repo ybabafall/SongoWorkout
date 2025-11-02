@@ -42,7 +42,7 @@ const MobileCTA = () => {
             onClick={() => navigate('/checkout')}
             className="w-full min-h-[56px] px-6 py-4 bg-gradient-to-r from-orange-600 to-red-600 text-white font-bold text-base tracking-wide rounded-full shadow-[0_8px_32px_rgba(249,115,22,0.4),0_4px_16px_rgba(220,38,38,0.3)] active:scale-95 transition-transform duration-150"
           >
-            <span className="relative z-10">Rejoindre la meute</span>
+            <span className="relative z-10">Rejoindre la troupe</span>
           </button>
 
           {/* Gradient fade au-dessus du bouton */}
