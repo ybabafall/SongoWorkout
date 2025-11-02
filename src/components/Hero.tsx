@@ -33,7 +33,7 @@ const Hero = () => {
             alt="Songo Workout Training"
             className="w-full h-full object-cover opacity-70"
             loading="eager"
-            fetchPriority="high"
+            fetchpriority="high"
             decoding="async"
             style={{
               objectPosition: 'center',
